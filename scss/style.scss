@@ -1,5 +1,70 @@
 @import "../Components/body.scss";
 @import "../Components/footer.scss";
+@import "../Components/main";
 
-@import "../Components/header.scss";
-@import "../Base/variables.scss"
+@import "../Components/header";
+@import "../Base/variables.scss";
+@import "../Base/extend";
+
+
+.mapouter{
+    display: inline;
+    position: relative;
+    left: 900px;
+    bottom: 120px;
+}
+
+.te{
+    background-color: beige;
+    height:300px ;
+}
+
+.op{
+    position: relative ;
+    top: 200px;
+}
+
+.pop{
+    margin-bottom: 100px;
+}
+
+.img-fluid{
+    display: inline;
+    position: relative;
+    left: 500px ;
+    top: 120px;
+    justify-items: row;
+    height: 50px;
+}
+
+#menu li>a{
+    color: black;
+    padding: 1px;
+    display: block;
+    text-decoration: none;
+    min-width: 100px;
+}
+#menu li>a:hover{
+    color: black;
+   
+}
+#menu>li{
+    float: left;
+    text-align:center;
+    margin: 20px;
+    
+}
+#menu>li>ul{
+    display: none;
+}
+#menu>li:hover>ul {
+    display:block;
+}
+#menu{
+    margin: 100px;
+    display: flex;
+    position: relative;
+    left: 500px;
+    bottom:200px ;
+    
+}

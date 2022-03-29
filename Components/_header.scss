@@ -1,0 +1,7 @@
+@import '../Base/maps';
+
+header{
+    background-color: map-get($header, bg-header);
+    border-bottom: map-get($header , bordes );
+    height: 200px;
+}

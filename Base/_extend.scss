@@ -1,0 +1,17 @@
+%regulador{
+    height: 100%;
+    width: 100%;
+}
+
+footer{
+    @extend %regulador
+}
+
+main{
+    @extend %regulador
+}
+
+
+body{
+    @extend %regulador
+}

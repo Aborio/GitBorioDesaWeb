@@ -1,0 +1,5 @@
+@mixin ajustar($colors, $borde ) {
+    background-color: $colors;
+    padding: $borde; 
+}
+
