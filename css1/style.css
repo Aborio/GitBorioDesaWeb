@@ -32,9 +32,6 @@ body, main, footer {
 }
 
 .img-fluid {
-  left: 500px;
-  top: 10px;
-  justify-items: row;
   height: 50px;
 }
 
@@ -115,7 +112,7 @@ fieldset div label {
 
 .title {
   display: flex;
-  color: hwb(0 31% 69%);
+  color: white;
   position: relative;
   top: 125px;
   justify-content: center;
