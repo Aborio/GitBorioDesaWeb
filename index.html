@@ -6,28 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="EStudio contable, asesoramiento empresarial y muchas ayudas mas">
     <meta name="keywords" content="Impuestos, asesoria, tax, taxes,auditoria, auditoria contable, estudio, estudio contable">
-    <title>inicio</title>
+    <title>Inicio</title>
     <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./css1/style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body class="cointainer-fluid col-xs-12 col-sm-6 col-md-8">
+<body class="cointainer-fluid row">
     <script src="./js/bootstrap.js"></script>
     <header>
         <img src="./img/descarga1.jfif" alt="Cont1">
-        <div>
-            <ul id="menu">
-                <li><a href="">Inicio</a></li>
-                <li><a href="./page/Quienesomos.html">¿Quienes somos?</a></li>
-                <li>Servicios
-                    <ul>
-                        <li><a href="./page/Impuestos.html">Impuestos</a></li>
-                        <li><a href="./page/AsesoriaEmpresarial.html">Asesoria Empresarial</a></li>
-                        <li><a href="./page/Auditoria.html">Auditoria</a></li>
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">Menu</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="./page/Quienesomos.html">¿Quienes somos?</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Servicios
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="./page/Auditoria.html">Auditoria</a></li>
+                          <li><a class="dropdown-item" href="./page/AsesoriaEmpresarial.html">Asesoramiento Empresarial</a></li>
+                          <li><a class="dropdown-item" href="./page/Impuestos.html">Impuestos</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="./page/contacto.html" tabindex="-1" aria-disabled="true">Contacto</a>
+                      </li>
                     </ul>
-                </li>
-                <li><a href="">Contacto</a></li>
-            </ul>
+                  </div>
+                </div>
+              </nav>
         </div>
     </header>
     <main class="container-fluid row">
@@ -44,9 +63,33 @@
             data-aos-duration="3000" class="col-md-6">
             <iframe class="animate__backInLeft" width="560" height="315" src="https://www.youtube.com/embed/11J9d51Tm8w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-    </main>    
-    <footer class="container-fluid row te">
-        <div class="op">
+
+        <div class="moreinf cointainer-fluid row">
+            <div>
+                <h4>Impuestos</h4>
+                <p>Conozca en detalle sobre nuestro servicio del area impositiva</p>
+                <a class="boton_personalizado" href="./page/Impuestos.html">MAS INFO</a>
+            </div>
+            <div>
+                <h4>Auditoria</h4>
+                <p>Conozca en detalle sobre nuestro servicio del area Auditoria</p>
+                <a class="boton_personalizado" href="./page/Auditoria.html">MAS INFO</a>
+            </div>
+            <div>
+                <h4>Asesoria Empresarial</h4>
+                <p>Conozca en detalle sobre nuestro servicio del area Asesoria Empresarial</p>
+                <a class="boton_personalizado" href="./page/AsesoriaEmpresarial.html">MAS INFO</a>
+            </div>
+            <div>
+                <h4>Contacto</h4>
+                <p>Contactese con nosotros y adecuamos nuestro servicio a las necediades</p>
+                <a class="boton_personalizado" href="./page/contacto.html">CONTACTO</a>
+            </div>
+        </div>
+    </main> 
+    <footer class="container-fluid row main1">
+        
+        <div class="col-md-4 op">
             <ul>
                 <li>Contacto: a@a.com</li>
                 <li>Numero: 3492-585585</li>
@@ -55,13 +98,13 @@
             </ul>
         </div>
 
-        <div class="">
+        <div class="col-md-4">
             <img class="img-fluid" src="./img/twt.png" alt="Twitter"/>
             <img class="img-fluid" src="./img/insta.jpg" alt="Instagram"/>
             <img class="img-fluid" src="./img/face.png" alt="Facebook"/>
         </div>
-        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=306&amp;height=254&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://kokagames.com/">Koka Games</a></div><style>.mapouter{position:relative;text-align:right;width:306px;height:254px;}.gmap_canvas {overflow:hidden;background:none!important;width:306px;height:254px;}.gmap_iframe {width:306px!important;height:254px!important;}</style></div>
-
+        <div class="mapouter col-md-4"><div class="gmap_canvas"><iframe class="gmap_iframe" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=306&amp;height=254&amp;hl=en&amp;q=University of Oxford&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://kokagames.com/">Koka Games</a></div><style>.mapouter{position:relative;text-align:right;width:306px;height:254px;}.gmap_canvas {overflow:hidden;background:none!important;width:306px;height:254px;}.gmap_iframe {width:306px!important;height:254px!important;}</style></div>
+        
     </footer>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
